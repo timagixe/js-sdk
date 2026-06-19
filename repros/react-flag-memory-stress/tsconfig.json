@@ -1,0 +1,14 @@
+{
+  "extends": "../../packages/react/tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "noEmit": true
+  },
+  "include": [
+    "./*.ts",
+    "./*.tsx",
+    "../../packages/react/src/**/*",
+    "../../packages/web/src/**/*",
+    "../../packages/shared/src/**/*"
+  ]
+}
